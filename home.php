@@ -84,7 +84,7 @@ if ($podaci->num_rows == 0) {
                         </tr>
                 <?php
                     endwhile;
-                } #zatvaranje elsa otvorenog na liniji 21
+
                 ?>
 
                 </tbody>
@@ -107,11 +107,10 @@ if ($podaci->num_rows == 0) {
         </div>
     </div>
 
-    <!-- Modal -->
+
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
-            <!-- zakazi modal -->
-            <!--Sadrzaj modala-->
+
             <div class="modal-content" style="background-clip: revert; width:1000px; height:700px; box-shadow: 50px 50px 50px 50px rgba(0,0,0,.5); border: 5px black">
                 <div class="modal-header" style="padding:5px; border-bottom:0px" >
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -155,11 +154,11 @@ if ($podaci->num_rows == 0) {
 
 
     </div>
-    <!-- Modal -->
+
     <div class="modal fade" id="izmeniModal" role="dialog">
         <div class="modal-dialog">
 
-            <!-- Modal sadrzaj-->
+ 
             <div class="modal-content" style="width: 1000px; height: 700px; box-shadow: 50px 50px 50px 50px rgba(0,0,0,.5); border: 5px black;">
                 <div class="modal-header" style="padding: 5px; border-bottom: 0px" >
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -193,7 +192,7 @@ if ($podaci->num_rows == 0) {
                                 </div>
                             </div>
                         </form>
-                    </div>
+                    </div>  
                 </div>
                 <div class="modal-footer" style="border: 0px">
                     <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: -webkit-pictograph; color: white; font-weight: bold; padding: 1px 5px; font-size: 25px; letter-spacing: 2px; width: 30%; margin-left: 230px; margin-top: 15px; background-color: black">Zatvori</button>
