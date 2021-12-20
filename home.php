@@ -84,7 +84,7 @@ if ($podaci->num_rows == 0) {
                         </tr>
                 <?php
                     endwhile;
-
+                }
                 ?>
 
                 </tbody>
