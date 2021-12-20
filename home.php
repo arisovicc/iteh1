@@ -37,7 +37,7 @@ if ($podaci->num_rows == 0) {
 
 
     <div class="gornjideo" style="color: black;">
-        <h1>TENISKI KLUB "NOLE"</h1>
+        <h1>TENISKI KLUB "NOVAK"</h1>
     </div>
 
     <div class="row1">
