@@ -17,10 +17,10 @@ $('#dodajForm').submit(function(){
 
     req.done(function(res, textStatus, jqXHR){
         if(res=="Success"){
-            alert("Kolokvijum uspešno zakazan");
-            console.log("Dodar kolokvijum");
+            alert("Termin uspešno zakazan");
+            console.log("Dodar Termin");
             location.reload(true);
-        }else console.log("Kolokvijum nije dodat "+res);
+        }else console.log("Termin nije dodat "+res);
         console.log(res);
     });
 
@@ -43,11 +43,11 @@ $('#btn-obrisi').click(function(){
     req.done(function(res, textStatus, jqXHR){
         if(res=="Success"){
            checked.closest('tr').remove();
-           alert('Obrisan kolokvijum');
+           alert('Obrisan Termin');
            console.log('Obrisan');
         }else {
-        console.log("Kolokvijum nije obrisan "+res);
-        alert("Kolokvijum nije obrisan ");
+        console.log("Termin nije obrisan "+res);
+        alert("Termin nije obrisan ");
 
         }
         console.log(res);
@@ -55,10 +55,10 @@ $('#btn-obrisi').click(function(){
 
 });
 
-// dugme koje je na glavnoj formi i otvara dijalog za izmenu
+
 $('#btn-izmeni').click(function () {
     const checked = $('input[name=checked-donut]:checked');
-    //pristupa informacijama te konkretne forme i popunjava dijalog
+
     request = $.ajax({
         url: 'handler/get.php',
         type: 'post',
@@ -92,7 +92,7 @@ $('#btn-izmeni').click(function () {
 
 });
 
-//dugme za slanje UPDATE zahteva nakon popunjene forme
+
 $('#izmeniForm').submit(function () {
     event.preventDefault();
     console.log("Izmene");
@@ -102,7 +102,7 @@ $('#izmeniForm').submit(function () {
     console.log(serializedData);
     $inputs.prop('disabled', true);
 
-    // kreirati request za UPDATE handler
+ 
 
     request.done(function (response, textStatus, jqXHR) {
 
@@ -110,7 +110,7 @@ $('#izmeniForm').submit(function () {
         if (response === 'Success') {
             console.log('Termin rezervacije je izmenjen');
             location.reload(true);
-            //$('#izmeniForm').reset;
+
         }
         else console.log('Termin rezervacije nije izmenjen ' + response);
         console.log(response);
@@ -121,7 +121,7 @@ $('#izmeniForm').submit(function () {
     });
 
 
-    //$('#izmeniModal').modal('hide');
+
 });
 
 $('#btn-pretraga').click(function () {
