@@ -1,0 +1,117 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("../img/s1.jpg");
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+form {
+    background-image: linear-gradient(to bottom right, #41a4397a, gray, #0055b099);
+    margin: auto;
+    margin-top:20%;
+    width: 60%;
+    height: 90%;
+    border: 3px solid black;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 50px;
+}
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 60%;
+    height: 48px;
+    padding: 10px 10px;
+    margin: 0px 100px 0px 130px;
+    display: block;
+    border: 1.5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+    border: orange;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 12px;
+    padding-top: 24px
+}
+
+/* Avatar image */
+img.avatar {
+    width: 15em;
+    height: 20em;
+    border-radius: 5%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 10px;
+}
+
+.main-div {
+    /*background: #ffffff none repeat scroll 0 0;*/
+    border-radius: 2px;
+    margin: 10px auto 30px;
+    max-width: 60%;
+    max-height: 80%;
+    padding: 50px 70px 70px 71px
+}
+
+.login-form {
+    /* background-image: url(../img/background.jpg); */
+    text-align: center;
+}
+
+.login-form .btn.btn-primary {
+    position: center;
+    background: #29606D;
+    border-color:black;
+    font-size: 20px;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 50px;
+    line-height: 50x;
+    padding: 10px;
+    
+
+}
+
+.login-form .btn.btn-primary:hover {
+    background: #296b6d;
+    border-color: black;
+    color: black;
+    font-size: 20px;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
+
+.password {
+
+    margin-left: 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.username { 
+
+    margin-left: 0px;
+    font-size: 25px;
+    font-weight: bold;
+} 

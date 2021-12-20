@@ -1,0 +1,252 @@
+* {
+    font-family: -webkit-pictograph;
+}
+
+.gornjideo {
+    background-color: rgba(219, 92, 0, 0.58);
+    height: 70px;
+    float: center;
+    color: #000;
+    text-align: center;
+    border: 3px white; 
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    margin-top: -16px;
+    padding: 15px;
+}
+.panel-body {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.41);
+    border-radius: 10px;
+}
+
+body{
+    background-image: url("../img/s3.jpg" );
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+table, th, td {
+    border: 3px solid black;
+  }
+
+/* za zakazi i izmeni donji deo, gde se vidi knjiga */
+.sir-form{
+    background: #000; 
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 90%;
+    border: 5px solid orange; 
+} 
+.sir-form .form-control{
+    border-radius:1rem;
+}
+
+/* ova dva su ubacena */
+.sir-image{
+    text-align: center;
+}
+
+
+/* ne znam */
+.sir-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+
+#myInput {
+    color: black;
+    width: 355px;
+    height: 40px;
+    background: #ffbb54;
+    margin-top: 7px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#btnDodaj {
+    font-family:  -webkit-pictograph;
+    color: black;
+    font-weight: bold;
+    padding: 1px 5px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 30%;
+    margin-left: 220px;
+    margin-top: 150px;
+}
+
+#btnIzmeni {
+    font-family:  -webkit-pictograph;
+    color: black;
+    font-weight: bold;
+    padding: 1px 5px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 30%;
+    margin-left: 220px;
+    margin-top: 150px;
+}
+
+/* ne znam */
+.prijava-form form{
+    padding: 3%;
+} 
+
+/* ne znam */
+.prijava-form form .row{
+    margin-bottom: -7%;
+}
+
+/* ovo je za izmeni pa naslov */
+ .prijava-form h3{
+    margin-bottom: 6%;
+    margin-top: 0%;
+    text-align: center;
+    color: #0062cc;
+} 
+
+/* ovo je za Zakazi klk, novi prozor */
+.prijava-form {
+    width: 80%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: rgba(160, 62, 129, 0);
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+div.modal-content, div.container.sir-form {
+    background-image: url("../img/s7.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+
+}
+.modal-dialog {
+    transition: transform .3s ease-out;
+}
+
+#myModal {
+    padding-right: 300px;
+
+}
+
+
+.col-md-11 {
+    font-size: 20px;
+}
+
+.row1 {
+    margin-top: 50px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 16px;
+    margin-left: 750px;
+}
+
+
+.col-md-1 {
+    margin-bottom: 7px;
+    padding-right: 10px;
+    
+}
+
+.col-md-12 {
+    margin-bottom: 7px;
+}
+
+.custom-radio-btn {
+    position: absolute;
+    padding-right: 7px;
+    padding-left: 7px;
+    background-color: rgba(96, 96, 96, 0.58);
+    border-radius: 60px;
+    padding-bottom: 3px;
+}
+
+.col-md-4{
+    margin-top: 18px;
+    height: 10px;
+} 
+
+#pregled{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(76, 76, 76, 0.5);
+}
+
+.thead{
+    font-size: 22px;
+    text-align: center;
+    border-style: solid;
+    border-width: medium;
+}
+.tbody {
+    font-size: 20px;
+    text-align:left;
+    border-style: solid;
+    border-width: medium;
+
+}
+th {
+    border-style: solid;
+    border-width: medium;
+}
+.btn {
+    padding: 6px 65px;
+}
+
+#izmeniModal {
+    padding-right: 300px;
+}
+
+#btn-izmeni{
+    font-size: 18px;
+    border: 3px solid #D37506;
+    border-radius: 28px;
+    padding-left: 75px;
+    background-color: #242424;
+    border-color: #D37506;
+}
+
+#btn-obrisi{
+    font-size: 18px;
+    padding-left: 78px;
+    border-radius: 28px; 
+    border-color: #D37506;   
+}
+
+
+#btn-sortiraj{
+    text-align: center;
+    font-size: 18px;
+    border: 3px solid #D37506;
+    border-radius: 28px; 
+    padding-left: 70px;
+    background-color: #242424;
+    border-color: #D37506;   
+    color: white;
+}
+
+:placeholder-shown{
+    width: 300px;
+    height: 30px;
+} 
